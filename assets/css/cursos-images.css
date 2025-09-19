@@ -1,0 +1,55 @@
+.todos-cursos div> :nth-child(1) .cabecalho-curso {
+    background-image: url(../img/cursos/alimentos-e-bebidas.webp);
+}
+
+.todos-cursos div> :nth-child(2) .cabecalho-curso {
+    background-image: url(../img/cursos/vestuario-e-moda.jpg);
+}
+
+.todos-cursos div> :nth-child(3) .cabecalho-curso {
+    background-image: url(../img/cursos/eletrica.webp);
+}
+
+.todos-cursos div> :nth-child(4) .cabecalho-curso {
+    background-image: url(../img/cursos/costrucao-civil.jpg);
+}
+
+.todos-cursos div> :nth-child(5) .cabecalho-curso {
+    background-image: url(../img/cursos/logistica.jpg);
+}
+
+.todos-cursos div> :nth-child(6) .cabecalho-curso {
+    background-image: url(../img/cursos/meio-ambiente.jpg);
+}
+
+.todos-cursos div> :nth-child(7) .cabecalho-curso {
+    background-image: url(../img/cursos/refrigeracao-e-climatizacao.avif);
+}
+
+.todos-cursos div> :nth-child(8) .cabecalho-curso {
+    background-image: url(../img/cursos/automativa.jpg);
+}
+
+.todos-cursos div> :nth-child(9) .cabecalho-curso {
+    background-image: url(../img/cursos/quimica.jpg);
+}
+
+.todos-cursos div> :nth-child(10) .cabecalho-curso {
+    background-image: url(../img/cursos/gestao.webp);
+}
+
+.todos-cursos div> :nth-child(11) .cabecalho-curso {
+    background-image: url(../img/cursos/seguranca-do-trabalho.webp);
+}
+
+.todos-cursos div> :nth-child(12) .cabecalho-curso {
+    background-image: url(../img/cursos/mineracao.jpg);
+}
+
+.todos-cursos div> :nth-child(13) .cabecalho-curso {
+    background-image: url(../img/cursos/metalmecanica-solda.jpg);
+}
+
+.todos-cursos div> :nth-child(14) .cabecalho-curso {
+    background-image: url(../img/cursos/tecnologia-da-informacao.webp);
+}
