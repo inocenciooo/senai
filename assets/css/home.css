@@ -1,145 +1,147 @@
 :root {
-    --cor-base: #F3F2EC;
-    --cor-primaria: #021730;
-    --cor-secundaria: #F7510F;
-    --cor-sub-base: #F1F1F1;
-    --cor-desfoque: rgba(0, 0, 0, 0.255);
-    --cor-desfoque-escuro: rgba(0, 0, 0, 0.582);
+  --cor-base: #f3f2ec;
+  --cor-primaria: #021730;
+  --cor-secundaria: #f7510f;
+  --cor-sub-base: #f1f1f1;
+  --cor-desfoque: rgba(0, 0, 0, 0.255);
+  --cor-desfoque-escuro: rgba(0, 0, 0, 0.582);
 }
 
 @font-face {
-    font-family: "poppins-black";
-    src: url(../fonts/poppins/Poppins-Black.ttf);
+  font-family: "poppins-black";
+  src: url(../fonts/poppins/Poppins-Black.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 html {
-    scroll-behavior: smooth;
-    font-family: "poppins-black";
-    background-color: var(--cor-base);
-    font-size: 10px;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "poppins-black";
+  background-color: var(--cor-base);
+  font-size: 10px;
+  overflow-x: hidden;
 }
 
 #cabecalho {
-    background-color: var(--cor-sub-base);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3rem;
-    font-size: 1.6rem;
-    min-height: 10vh;
-    box-shadow: 0px 3px 20px 1px var(--cor-desfoque);
+  background-color: var(--cor-sub-base);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  font-size: 1.6rem;
+  min-height: 10vh;
+  box-shadow: 0px 0px 10px 1px var(--cor-desfoque);
 }
 
 .logo {
-    width: 20rem;
+  width: 20rem;
 }
 
 .menu ul {
-    display: flex;
-    gap: 1.2rem;
-
+  display: flex;
+  gap: 1.2rem;
 }
 
 .menu a {
-    color: var(--cor-primaria);
-    background-color: var(--cor-base);
-    padding: .8rem 1.2rem;
-    border-radius: 8px;
-    border: 2px solid;
-    transition: 0.3s ease-in-out;
+  color: var(--cor-primaria);
+  background-color: var(--cor-base);
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  border: 2px solid;
+  transition: 0.3s ease-in-out;
 }
 
 .menu a:hover {
-    color: var(--cor-secundaria);
+  color: var(--cor-secundaria);
 }
 
 .todos-cursos {
-    box-shadow: 0px 3px 20px 1px var(--cor-desfoque);
+  box-shadow: 0px 0px 10px 1px var(--cor-desfoque);
 }
 
-
-.todos-cursos>div {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.todos-cursos > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: self-start;
+  flex-wrap: wrap;
 }
 
 .curso {
-    font-size: 1.6rem;
-    background-color: var(--cor-primaria);
-    color: var(--cor-base);
-    width: 50rem;
-    margin: 2rem;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px 2px var(--cor-desfoque);
-    transition: 0.2s ease-in-out;
+  font-size: 1.6rem;
+  color: var(--cor-base);
+  width: 55rem;
+  margin: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px var(--cor-desfoque);
+  transition: 0.2s ease-in-out;
 }
 
+
 .sub-titulo {
-    font-size: 4rem;
-    text-align: center;
-    color: var(--cor-primaria);
-    text-transform: uppercase;
+  font-size: 4rem;
+  text-align: center;
+  color: var(--cor-primaria);
+  text-transform: uppercase;
 }
 
 .banner {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .banner img {
-    width: 140rem;
-
-}
-
-.curso:hover {
-    box-shadow: 0px 0px 10px 5px var(--cor-desfoque-escuro);
-    ;
-}
-
-
-
-.curso ul {
-    padding: 0 1rem;
+  width: 140rem;
 }
 
 .curso li {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    border-bottom: 2px solid var(--cor-base);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 2px solid var(--cor-base);
+  transition: 0.2s ease-in-out;
 }
 
-.curso ul> :last-child {
-    border-bottom: none;
+.curso li:hover {
+  background-color: var(--cor-secundaria);
+}
+
+.curso ul {
+  background-color: var(--cor-primaria);
+}
+
+.curso ul > :last-child {
+  border-bottom: none;
 }
 
 .cabecalho-curso {
-    height: 15rem;
-    display: flex;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    padding: 0 1rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  padding: 0 1rem;
 }
 
 .cabecalho-curso h3 {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-primaria);
-    padding: .5rem 1rem;
-    border-radius: 8px;
+  background-color: var(--cor-secundaria);
+  color: var(--cor-primaria);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.cabecalho-curso:hover h3 {
+  color: var(--cor-secundaria);
+  background-color: var(--cor-primaria);
 }
