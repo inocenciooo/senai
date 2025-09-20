@@ -53,3 +53,83 @@
 .todos-cursos div> :nth-child(14) .cabecalho-curso {
     background-image: url(../img/cursos/tecnologia-da-informacao.webp);
 }
+
+
+
+/*ALIMENTOS E BEBIDAS*/
+.todos-cursos div> :nth-child(1) {
+    order: 10;
+}
+
+/*VESTUARIO E MODA*/
+.todos-cursos div> :nth-child(2) {
+    order: 1;
+}
+
+/*ELETRICA*/
+.todos-cursos div> :nth-child(3) {
+    order: 7;
+}
+
+/*CONSTRUCAO CIVIL*/
+.todos-cursos div> :nth-child(4) {
+    order: 6;
+}
+
+/*LOGISTICA*/
+.todos-cursos div> :nth-child(5) {
+    order: 9;
+}
+
+/*MEIO AMBIENTE*/
+.todos-cursos div> :nth-child(6) {
+    order: 5;
+}
+
+/*REFRIGERAÇAO*/
+.todos-cursos div> :nth-child(7) {
+    order: 0;
+}
+
+/*AUTOMOTIVA*/
+.todos-cursos div> :nth-child(8) {
+    order: 13;
+}
+
+/*QUIMICA*/
+.todos-cursos div> :nth-child(9) {
+    order: 4;
+}
+
+/*GESTAO*/
+.todos-cursos div> :nth-child(10) {
+    order: 11;
+}
+
+/*SEGURANCA DO TRABALHO*/
+.todos-cursos div> :nth-child(11) {
+    order: 2;
+}
+
+/*MINERACAO*/
+.todos-cursos div> :nth-child(12) {
+    order: 3;
+}
+
+/*METALMECANICA SOLDA*/
+.todos-cursos div> :nth-child(13) {
+    order: 8;
+}
+
+/*TECNOLOGIA DA INFORMACAO*/
+.todos-cursos div> :nth-child(14) {
+    order: 12;
+}
+
+.todos-cursos div> :nth-child(15) {
+    order: 100;
+    background-image: url(../img/Cresce-Hero-Banner-Senai.jpg);
+    background-size: cover;
+    background-repeat: no;
+    height: 50rem;
+}

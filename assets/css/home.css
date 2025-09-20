@@ -5,6 +5,7 @@
   --cor-sub-base: #f1f1f1;
   --cor-desfoque: rgba(0, 0, 0, 0.255);
   --cor-desfoque-escuro: rgba(0, 0, 0, 0.582);
+  --cor-fundo-rodape: #0536A0;
 }
 
 @font-face {
@@ -69,7 +70,7 @@ html {
   box-shadow: 0px 0px 10px 1px var(--cor-desfoque);
 }
 
-.todos-cursos > div {
+.todos-cursos>div {
   display: flex;
   justify-content: space-evenly;
   align-items: self-start;
@@ -83,16 +84,17 @@ html {
   margin: 2rem;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 0px 10px 0px var(--cor-desfoque);
   transition: 0.2s ease-in-out;
+  /*box-shadow: 0px 0px 10px 0px var(--cor-desfoque);*/
+  background-color: inherit;
 }
-
 
 .sub-titulo {
   font-size: 4rem;
   text-align: center;
   color: var(--cor-primaria);
   text-transform: uppercase;
+  padding-top: 4rem;
 }
 
 .banner {
@@ -109,7 +111,12 @@ html {
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 2px solid var(--cor-base);
+  cursor: default;
   transition: 0.2s ease-in-out;
+}
+
+.curso li p:nth-child(1) {
+  width: 60%;
 }
 
 .curso li:hover {
@@ -118,9 +125,10 @@ html {
 
 .curso ul {
   background-color: var(--cor-primaria);
+  font-size: 1.4rem;
 }
 
-.curso ul > :last-child {
+.curso ul> :last-child {
   border-bottom: none;
 }
 
@@ -135,13 +143,20 @@ html {
 
 .cabecalho-curso h3 {
   background-color: var(--cor-secundaria);
-  color: var(--cor-primaria);
+  color: var(--cor-sub-base);
   padding: 0.5rem 1rem;
   border-radius: 8px;
   transition: 0.3s ease-in-out;
+  cursor: default;
 }
 
 .cabecalho-curso:hover h3 {
-  color: var(--cor-secundaria);
+  color: var(--cor-base);
   background-color: var(--cor-primaria);
+}
+
+#rodape {
+  min-height: 20vh;
+  background-color: var(--cor-fundo-rodape);
+  color: var(--cor-base);
 }
