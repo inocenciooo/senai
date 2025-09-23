@@ -159,4 +159,8 @@ html {
   min-height: 20vh;
   background-color: var(--cor-fundo-rodape);
   color: var(--cor-base);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  font-size: 2rem;
 }
