@@ -25,6 +25,10 @@ img {
   width: 100%;
 }
 
+a {
+  color: inherit;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "poppins-black";
@@ -155,12 +159,64 @@ html {
   background-color: var(--cor-primaria);
 }
 
+
+
 #rodape {
-  min-height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-direction: row;
+  padding: 20px;
+  min-height: 10vh;
   background-color: var(--cor-fundo-rodape);
   color: var(--cor-base);
+  gap: 10px;
+  font-size: 12px;
+}
+
+#rodape>div {
+  border-right: 2px solid var(--cor-secundaria);
+  padding: 10px;
+  width: 100%;
+}
+
+
+
+.titulo-rodape {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.endereco p {
+  margin-block: 10px;
+}
+
+
+.redes-sociais ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.redes-sociais a {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem 4rem;
-  font-size: 2rem;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  transition: 0.3s ease;
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 4px;
+}
+
+.redes-sociais li {
+  display: inline;
+}
+
+.redes-sociais a:hover {
+  background-color: var(--cor-secundaria);
+}
+
+#rodape >:last-child{
+  border: 0;
 }
