@@ -5,12 +5,17 @@
   --cor-sub-base: #f1f1f1;
   --cor-desfoque: rgba(0, 0, 0, 0.255);
   --cor-desfoque-escuro: rgba(0, 0, 0, 0.582);
-  --cor-fundo-rodape: #0536A0;
+  --cor-fundo-rodape: #11244e;
 }
 
 @font-face {
   font-family: "poppins-black";
   src: url(../fonts/poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "poppins-black-light";
+  src: url(../fonts/poppins/Poppins-Light.ttf);
 }
 
 * {
@@ -130,6 +135,7 @@ html {
 .curso ul {
   background-color: var(--cor-primaria);
   font-size: 1.4rem;
+  font-family: "poppins-black-light";
 }
 
 .curso ul> :last-child {
